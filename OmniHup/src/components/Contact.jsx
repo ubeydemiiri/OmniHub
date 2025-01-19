@@ -2,7 +2,7 @@ import Header from "./Team/Headerteam";
 import Card from "./shared/Personelcard";
 import Personel from "./Team/Personel";
 import Volunteer from"./Team/volunteer";
-import ContactForm from "./shared/Contact";
+import ContactForm from"./shared/Formcontact";
 import Footer from "./shared/Footer";
 import './Team/Team.css';
 

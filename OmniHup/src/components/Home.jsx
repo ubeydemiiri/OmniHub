@@ -12,7 +12,8 @@ import Galleryhome from "./Home/Galleryhome";
 import Testimonials from "./Home/Testimonials";
 import Faq from "./Home/Faq";
 import Formhome from "./Home/Formhome";
-import ContactForm from "./shared/Contact";
+import ContactForm from"./shared/Formcontact";
+
 import Footer from "./shared/Footer";
 function Home() {
     return (

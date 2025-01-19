@@ -6,7 +6,7 @@ import Slidewrapper from './About/Sliderwrapper';
 import Personelcard from './shared/Personelcard';
 import Galleryabout from './About/Galleryabout';
 import Statistics from './About/statistics';
-import ContactForm from "./shared/Contact";
+import ContactForm from "./shared/Formcontact";
 import Footer from "./shared/Footer";
 
 
