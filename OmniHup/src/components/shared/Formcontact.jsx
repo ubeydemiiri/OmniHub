@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhoneVolume } from "@fortawesome/free-solid-svg-icons";
 
-// import { faFacebook, faTwitter, faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faFacebook, faTwitter, faInstagram } from "@fortawesome/free-brands-svg-icons";
 
 function ContactForm() {
   return (
@@ -57,18 +57,18 @@ function ContactForm() {
           <h3>Location</h3>
           <p>121 Rock Street, 21 Avenue,</p>
           <p>New York, NY 92103-9000</p>
-          <h3>Social</h3>
+          <h3>Social</h3> 
           <div className="social-icons">
-            <a href="#">
-              <i classNameName="fab fa-facebook"></i>
-            </a>
-            <a href="#">
-              <i classNameName="fab fa-twitter"></i>
-            </a>
-            <a href="#">
-              <i classNameName="fab fa-instagram"></i>
-            </a>
-          </div>
+      <a href="#">
+        <FontAwesomeIcon icon={faFacebook} />
+      </a>
+      <a href="#">
+        <FontAwesomeIcon icon={faTwitter} />
+      </a>
+      <a href="#">
+        <FontAwesomeIcon icon={faInstagram} />
+      </a>
+    </div>
         </div>
       </div>
     </section>
